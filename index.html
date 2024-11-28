@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Delicious Bites</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="starter"><h2>Welcome to Delicious Bites</h2></div><br>
+        <p style="background-color: rgb(136, 78, 78); display: inline-block; padding: 5px; text-align: center;">Your destination for mouthwatering flavors.</p>
+    </section>
+
+    <section id="menu">
+        <h2 style="background-color: black ;display: inline-block; padding: 5px; text-align: center;">Our Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <h3>Pizza</h3>
+                <img src="pizza.jpg" alt="">
+                <p>Cheesy and delicious</p>
+            </div>
+            <div class="menu-item">
+                <h3>Burger</h3>
+                <img src="burger 2.jpg" alt="">
+                <p>Juicy and flavorful</p>
+            </div>
+            <div class="menu-item">
+                <h3>Pasta</h3>
+                <img src="pasta.jpg" alt="">
+                <p>Rich and creamy</p>
+            </div>
+            <div class="menu-item">
+                <h3>ultimate club sandwich</h3>
+                <img src="the ultimate club sandwich.jpg" alt="">
+                <p> tasty and healthy</p>
+            </div>
+            <div class="menu-item">
+                <h3>Air fryer chicken nuggets</h3>
+                <img src="Air fryer chicken nuggets.jpg" alt="">
+                <p>delicious with ketchup</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p style="background-color: black;display: inline-block; padding: 5px; text-align: center;">We are a family-owned restaurant serving delicious meals since 1990.</p>
+    </section>
+
+    <section id="contact">
+        <h2 style="background-color: black;display: inline-block; padding: 5px; text-align: center;">Contact Us</h2>
+        <form>
+            <label for="name" style="width: 50px;">Name:</label>
+            <input type="text" id="name" name="name" required style="background-color: rgba(250, 196, 179, 0.973);">
+            <br>
+            <label for="email" style="width: 50px;">Email:</label>
+            <input type="email" id="email" name="email" required style="background-color: rgba(250, 196, 179, 0.973);">
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Delicious Bites. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+

@@ -1,0 +1,197 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-image: url('new.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;     /* Keeps the background fixed during scrolling */
+    background-position: center;  
+    
+}
+   .starter{
+        background-color: #9c5555;
+        display: inline-block; 
+        padding: 5px;
+         text-align: center;
+    }
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background: #8b5f5f;
+    color: #fcf7f7;
+    padding: 1rem 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 1.5rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('restaurant.jpg') no-repeat center center/cover;
+    color: #e6dada;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+    color: white;
+    
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: white;
+    
+    
+    
+}
+
+.menu-item {
+    background: #1d070e7c;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 25%;}
+    /* Hover Effect: Enlarge only the image */
+.menu-items img:hover {
+    transform: scale(1.2); /* Enlarge the image */
+    transition: transform 0.3s ease; /* Smooth animation */
+}
+
+/* Smooth Transition for Non-Hover State */
+.menu-items image {
+    transition: transform 0.3s ease; /* Ensures smooth return to original size */
+}
+
+
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+    
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    background-color: black;
+    width: 70px;
+    
+}
+
+put, form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #020101;
+    border-radius: 4px;
+    background-color: rgba(250, 196, 179, 0.973);
+}
+
+form button {
+    background: #070404;
+    color: #e9e0e0;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    
+
+}
+
+footer {
+    text-align: center;
+    background: #333;
+    color: #fffdfd;
+    padding: 1rem 0;
+}
+.menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+body{
+    background-color: burlywood;
+}
+/* Responsive styles start here */
+
+/* For Tablets (Screen width <= 768px) */
+@media (max-width: 768px) {
+    .menu-item {
+        width: 45%; /* Shrink menu items */
+    }
+    header .container {
+        flex-direction: column; /* Stack logo and navigation vertically */
+        text-align: center;
+    }
+    header nav ul {
+        flex-direction: column; /* Vertical navigation links */
+    }
+    header nav ul li {
+        margin: 0.5rem 0; /* Add spacing between links */
+    }
+}
+
+/* For Mobile Phones (Screen width <= 480px) */
+@media (max-width: 480px) {
+    .menu-item {
+        width: 90%; /* Full width for menu items */
+    }
+    header h1 {
+        font-size: 1.5rem; /* Adjust logo size */
+    }
+    .hero {
+        padding: 2rem; /* Reduce padding in hero section */
+    }
+    nav ul {
+        font-size: 0.9rem; /* Smaller font size for navigation */
+    }
+}/* Menu Item Styling */
